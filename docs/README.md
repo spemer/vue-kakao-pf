@@ -1,6 +1,6 @@
-# vue-kakao-pf
+# vue-kakao-pf-docs
 
-> A Vue.js project
+> vue-kakao-pf-docs
 
 ## Build Setup
 

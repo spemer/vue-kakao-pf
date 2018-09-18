@@ -29,7 +29,7 @@ yarn add vue-kakao-pf
 ### index.html
 
 ``` html
-
+<!-- index.html -->
 <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
 ```
 
@@ -42,17 +42,14 @@ import VueKakaoPf from 'vue-kakao-pf'
 
 Vue.use(VueKakaoPf)
 
-VueKakaoPf.plusFriendId = 'id'// 플러스친구 홈 URL의 id를 입력해주세요
-Kakao.init(process.env.KAKAO_KEY)// 앱의 키(JavaScript)를 입력해주세요
+VueKakaoPf.plusFriendId = 'id'    // 플러스친구 홈 URL의 id를 입력해주세요
+Kakao.init(process.env.KAKAO_KEY) // 앱의 키(JavaScript)를 입력해주세요
 ```
 
 ### CSS(선택사항)
 
 ``` css
-#plusfriend-addfriend-button {
-  /* ... */
-}
-
+/* style.css */
 #plusfriend-addfriend-button img {
   /* ... */
 }

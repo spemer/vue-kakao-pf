@@ -1,10 +1,10 @@
 <template lang="pug">
   div#app
-    Kakao
+    Home
 </template>
 
 <script>
-import Kakao from './components/Kakao'
+import Home from './components/Home'
 
 export default {
   name: 'app',
@@ -14,7 +14,7 @@ export default {
   },
 
   components: {
-    Kakao
+    Home
   }
 }
 </script>
