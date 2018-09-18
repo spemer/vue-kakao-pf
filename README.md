@@ -40,10 +40,10 @@ yarn add vue-kakao-pf
 import Vue from 'vue'
 import VueKakaoPf from 'vue-kakao-pf'
 
-Vue.use(VueKakaoPf)
-
 VueKakaoPf.plusFriendId = '_id'   // 플러스친구 홈 URL의 id를 입력해주세요
 Kakao.init(process.env.KAKAO_KEY) // 앱의 키(JavaScript)를 입력해주세요
+
+Vue.use(VueKakaoPf)
 ```
 
 ### CSS(선택)
