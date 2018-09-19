@@ -1,24 +1,19 @@
 <template lang="pug">
-  div#app
-    Home
+  Readme.container.readme
 </template>
 
 <script>
-import Home from './page/Home'
+import Readme from './md/README.md'
 
 export default {
-  name: 'app',
-  data () {
-    return {
-    }
-  },
-
   components: {
-    Home
+    Readme
   }
 }
 </script>
 
 <style lang="scss">
-
+.readme {
+  text-align: center;
+}
 </style>
