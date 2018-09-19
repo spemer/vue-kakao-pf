@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>launcher</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="launcher" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero">
+            <rect id="base" fill="#FFCD00" x="0" y="0" width="56" height="56" rx="28"></rect>
+            <g id="-g-ic-/-ic-kakao" transform="translate(14.000000, 16.000000)" fill="#403631">
+                <path d="M0.666666667,10.1745101 C0.666666667,13.6995478 3.16666667,17.0892648 6.916,18.9864344 C6.63866667,19.6643778 5.52666667,23.4600569 5.52666667,23.7320382 C5.52660855,23.8050028 5.55616318,23.874836 5.60850426,23.9254084 C5.66084534,23.9759808 6.08133333,24 6.08133333,24 C6.35866667,24 10.9426667,20.8822643 11.6373333,20.4749623 C12.4037487,20.6975816 13.2021459,20.7881829 13.9986667,20.7429241 C21.4986667,20.7429241 27.332,16.1339809 27.332,10.575113 C27.332,4.61028303 21.4986667,0 13.9986667,0 C6.5,0.00669904539 0.666666667,4.61564227 0.666666667,10.1745101 Z" id="ic-kakao"></path>
+            </g>
+        </g>
+    </g>
+</svg>
