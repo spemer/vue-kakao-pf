@@ -1,6 +1,6 @@
 {
   "name": "vue-kakao-pf-docs",
-  "description": "vue-kakao-pf-docs",
+  "description": "카카오 플러스친구 1:1 채팅 버튼을 생성해주는 Vue.js 플러그인",
   "version": "1.0.0",
   "author": "spemer <ghsspower@naver.com>",
   "license": "MIT",
@@ -42,5 +42,24 @@
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1"
   },
+  "keywords": [
+    "VueJs",
+    "Vue",
+    "Js",
+    "JavaScript",
+    "Kakao",
+    "Kakao Plus Friend",
+    "카카오",
+    "카카오 플친",
+    "플러스친구",
+    "Plugin",
+    "Library",
+    "Button",
+    "CSS",
+    "Spemer",
+    "Hyouk Seo",
+    "NPM",
+    "Yarn"
+  ],
   "homepage": "https://github.com/spemer/vue-rippler#readme"
 }
