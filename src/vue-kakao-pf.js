@@ -1,8 +1,6 @@
 var VueKakaoPf = {
   install: function install(Vue, options) {
-
     Vue.mixin({
-
       mounted: function mounted() {
         var setKakaoBtn,
             kakaoImg,
