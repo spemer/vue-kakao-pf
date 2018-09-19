@@ -1,5 +1,4 @@
 <template lang="pug">
-import { globalVar } from '../globalVar';
   div#header
     div.container
       div.header__logo(

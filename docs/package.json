@@ -1,6 +1,6 @@
 {
   "name": "vue-kakao-pf-docs",
-  "description": "A Vue.js project",
+  "description": "vue-kakao-pf-docs",
   "version": "1.0.0",
   "author": "spemer <ghsspower@naver.com>",
   "license": "MIT",
@@ -41,5 +41,6 @@
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1"
-  }
+  },
+  "homepage": "https://github.com/spemer/vue-rippler#readme"
 }
