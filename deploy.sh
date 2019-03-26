@@ -53,7 +53,6 @@ git_commit() {
         if [ -z "$commitmsg" ]
         then
           echo "${BOLD}${RED}Commit message is empty${RESET}"
-          printf "\n"
           commitmsg="Add files via upload"
         fi
 
