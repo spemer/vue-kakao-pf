@@ -1,34 +1,93 @@
 #!/bin/bash
-echo "=============================="
-echo "${PWD##*/}"
-echo "=============================="
+BOLD=$(tput bold)
+RESET=$(tput sgr0)
 
-# docs dir
-cd docs
+echo "============================================================"
+echo "${BOLD}${PWD##*/}${RESET}"
+echo "============================================================"
 
+#============================================================
 # serve with hot reload at localhost:5050
-npm run dev
+#============================================================
+npm_run_dev() {
+  while true; do
+    printf "\n"
+    read -p "${BOLD}npm run dev? (Y/n)${RESET}" yn
+    case ${yn} in
+      [Yy]* ) cd docs && npm run dev && cd -; break;;
+      [Nn]* ) return 0;;
+      * ) echo "Please answer yes or no.";;
+    esac
+  done
+}
 
+#============================================================
 # build for production with minification
-npm run build
+#============================================================
+npm_run_build() {
+  while true; do
+    printf "\n"
+    read -p "${BOLD}npm run build? (Y/n)${RESET}" yn
+    case ${yn} in
+      [Yy]* ) cd docs && npm run build && cd -; break;;
+      [Nn]* ) return 0;;
+      * ) echo "Please answer yes or no.";;
+    esac
+  done
+}
 
-# root dir
-cd -
+#============================================================
+# git commit
+#============================================================
+git_commit() {
+  while true; do
+    printf "\n"
+    read -p "${BOLD}git commit? (Y/n)${RESET}" yn
+    case ${yn} in
+      [Yy]* )
+        IFS= read -r -p "${BOLD}Enter commit message: ${RESET}" commitmsg
 
-# get commit message
-printf "\n"
-IFS= read -r -p "Enter commit message: " commitmsg
+        # if commitmsg empty
+        if [ -z "$commitmsg" ]
+        then
+          echo "${BOLD}Commit message is empty${RESET}"
+          commitmsg="Add files via upload"
+        fi
 
-# if commitmsg empty
-if [ -z "$commitmsg" ]
-then
-    echo "Commit message is empty"
-    commitmsg="Add files via upload"
-fi
+        printf "\n"
+        git add .
+        git commit -m "$commitmsg"
+        break;;
 
-printf "\n"
-git add .
-git commit -m "$commitmsg"
-git push
+      [Nn]* ) return 0;;
+      * ) echo "Please answer yes or no.";;
+    esac
+  done
+}
 
-exit
+#============================================================
+# git push
+#============================================================
+git_push() {
+  while true; do
+    printf "\n"
+    read -p "${BOLD}git push? (Y/n)${RESET}" yn
+    case ${yn} in
+      [Yy]* ) git push; break;;
+      [Nn]* ) return 0;;
+      * ) echo "Please answer yes or no.";;
+    esac
+  done
+}
+
+#============================================================
+# main
+#============================================================
+main() {
+  npm_run_dev
+  npm_run_build
+  git_commit
+  git_push
+}
+
+main
