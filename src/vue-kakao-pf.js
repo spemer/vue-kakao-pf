@@ -3,8 +3,8 @@ var VueKakaoPf = {
     Vue.mixin({
       mounted: function mounted() {
         var setKakaoBtn,
-            kakaoImg,
-            plusFriendId
+          kakaoImg,
+          plusFriendId
 
         // set kakao btn div
         setKakaoBtn = document.createElement('div')
