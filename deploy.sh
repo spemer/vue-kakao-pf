@@ -2,6 +2,7 @@
 BOLD=$(tput bold)
 RESET=$(tput sgr0)
 GREEN=$(tput setaf 2)
+RED=$(tput setaf 1)
 
 echo "============================================================"
 echo "${BOLD}${PWD##*/}${RESET}"
@@ -51,7 +52,8 @@ git_commit() {
         # if commitmsg empty
         if [ -z "$commitmsg" ]
         then
-          echo "${BOLD}${GREEN}Commit message is empty${RESET}"
+          echo "${BOLD}${RED}Commit message is empty${RESET}"
+          printf "\n"
           commitmsg="Add files via upload"
         fi
 
