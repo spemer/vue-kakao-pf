@@ -8,7 +8,7 @@
 
 [Live Demo](https://spemer.github.io/vue-kakao-pf/)
 
-## ✔ 설치
+## 설치
 
 ``` bash
 npm i vue-kakao-pf --save
@@ -24,7 +24,7 @@ yarn add vue-kakao-pf
 [UNPKG](https://unpkg.com/vue-kakao-pf/),
 [bundle.run](https://bundle.run/vue-kakao-pf)
 
-## ✔ 사용
+## 사용
 
 ### index.html
 
@@ -57,6 +57,6 @@ Vue.use(VueKakaoPf)
 }
 ```
 
-## ✔ Author
+## Author
 
 [Hyouk Seo(Spemer)](https://github.com/spemer)
