@@ -2,10 +2,10 @@
 
 > 카카오 플러스친구 1:1 채팅 버튼을 생성해주는 Vue.js 플러그인 입니다.
 
+[![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/)
 [![Gzipsize](https://img.badgesize.io/spemer/vue-kakao-pf/master/src/vue-kakao-pf.js?compression=gzip)](https://www.npmjs.com/package/vue-kakao-pf)
 [![Version](https://img.shields.io/npm/v/vue-kakao-pf.svg)](https://www.npmjs.com/package/vue-kakao-pf)
 [![License](https://img.shields.io/npm/l/vue-kakao-pf.svg)](https://github.com/spemer/vue-kakao-pf)
-[![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/)
 
 [Live Demo](https://spemer.github.io/vue-kakao-pf/)
 
