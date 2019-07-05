@@ -1,7 +1,7 @@
 {
   "name": "vue-kakao-pf",
   "description": "Simple Vue.js plugin for Kakao plus friend chat",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": "spemer <ghsspower@naver.com>",
   "license": "MIT",
   "private": false,
